@@ -1,0 +1,1127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#div {
+    width: 100%;
+    background-color: #fdf6f2;
+    padding: 10px;
+    word-spacing: 8px;
+}
+
+#div>h3 {
+    margin-top: 5px;
+    color: red;
+    font-family: sans-serif;
+    margin-left: 500px;
+}
+
+#mind {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 20px;
+    /* animation: mind 50s 1ms forwards infinite; */
+    /* transform: translate(400px); */
+}
+
+#main {
+    display: flex;
+}
+
+#div1 {
+    width: 100%;
+    padding: 5px;
+    background-color: #950b3d;
+    border-bottom-right-radius: 100px;
+    padding-left: 300px;
+}
+
+#div1>a {
+    color: white;
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+}
+
+#div2 {
+    width: 50%;
+    padding: 5px;
+    background-color: #950b3d;
+    text-align: right;
+    padding-right: 160px;
+    /* margin-left: 960px; */
+    border-top-left-radius: 100px;
+}
+
+/* #div2>a { */
+    /* text-decoration: none !important; */
+    /* color: white; */
+/* } */
+
+#div2>button {
+    padding: 2px;
+    width: 150px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: #950b3d;
+    color: white;
+}
+
+#div2>button:hover {
+    background-color: white;
+    color: #950b3d;
+    border-radius: 100px;
+}
+
+#oh-new {
+    display: flex;
+}
+
+#new {
+    /* margin: 100px 300px; */
+    margin-top: 90px;
+    margin-left: 400px;
+    margin-right: 50px;
+
+}
+
+#new>p {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+#new>h2 {
+    margin-left: 100px;
+    margin-right: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+
+#new>button {
+    margin-left: 70px;
+    width: 180px;
+    padding: 10px;
+    border: none;
+    background-color: #950b3d;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#img {
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+.scrib{
+    width: 30px;
+    height: 40px;
+    background-color: #950b3d;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#why {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#why>h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+main {
+    width: 100%;
+    height: 400px;
+    background-color: #fdf6f2;
+}
+
+#oh-sec {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#sec {
+    width: 350px;
+    padding: 15px;
+    border: 2px solid #dd4f05;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sec>svg {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#sec>svg:hover {
+    color: #dd4f05;
+}
+
+#sec>h5 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#start {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#start>h3 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#imag {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#ver:hover {
+    transition: all 1s ease-in;
+    scale: 110% !important;
+}
+
+#ver>h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#get {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#get>button {
+    width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #950b3d;
+    color: white;
+    border-style: double;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pg-footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.footer {
+    background-color: black;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.footer-wave-svg {
+    background-color: transparent;
+    display: block;
+    height: 30px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+
+.footer-wave-path {
+    fill: #950b3d;
+}
+
+.footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 450px;
+    position: relative;
+}
+
+.footer-content-column {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-content-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-logo-link {
+    display: inline-block;
+}
+
+.footer-menu {
+    margin-top: 30px;
+}
+
+.footer-menu-name {
+    color: #fffff2;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.footer-menu-list {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.footer-menu-list li {
+    margin-top: 5px;
+}
+
+.footer-call-to-action-description {
+    color: #fffff2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-call-to-action-button:hover {
+    background-color: #fffff2;
+    color: #00bef0;
+}
+
+.button:last-of-type {
+    margin-right: 0;
+}
+
+.footer-call-to-action-button {
+    background-color: #950b3d;
+    border-radius: 21px;
+    color: #fffff2;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    padding: 12px 30px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .2s;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer-call-to-action {
+    margin-top: 30px;
+}
+
+.footer-call-to-action-title {
+    color: #fffff2;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.footer-call-to-action-link-wrapper {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-call-to-action-link-wrapper a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+.footer-social-links {
+    bottom: 0;
+    height: 54px;
+    position: absolute;
+    right: 0;
+    width: 236px;
+}
+
+.footer-social-amoeba-svg {
+    height: 54px;
+    left: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 236px;
+}
+
+.footer-social-amoeba-path {
+    fill: #950b3d;
+}
+
+.footer-social-link.linkedin {
+    height: 26px;
+    left: -3px;
+    top: 3px;
+    width: 58px;
+}
+
+.footer-social-link {
+    display: block;
+    padding: 10px;
+    position: absolute;
+}
+
+.hidden-link-text {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+    top: 50%;
+}
+
+.footer-social-icon-svg {
+    display: block;
+}
+
+.footer-social-icon-path {
+    fill: #fffff2;
+    transition: fill .2s;
+}
+
+.footer-social-link.twitter {
+    height: 28px;
+    left: 52px;
+    top: -3px;
+    width: 68px;
+}
+
+.footer-social-link.youtube {
+    height: 24px;
+    left: 116px;
+    top: 8px;
+    width: 57px;
+}
+
+.footer-social-link.github {
+    height: 34px;
+    left: 161px;
+    top: -2px;
+    width: 74px;
+}
+
+.footer-copyright {
+    background-color: #950b3d;
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.footer-copyright-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.footer-copyright-text {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.footer-copyright-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* About */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#about {
+    width: 100%;
+    height: 700px;
+    background-color: #950b3d;
+    background-image: url(image/banner-c0c076bf.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    text-align: center;
+}
+
+#about>h1 {
+    color: white;
+}
+
+strong {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#body {
+    width: 1000px;
+    height: 750px;
+    background-color: white;
+    margin-left: 25%;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#body>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 30px;
+    word-spacing: 10px;
+}
+
+.comp>h2{
+    margin-top: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    sans-serif;
+    margin-left: 820px;
+    margin-bottom: 80px;
+    font-size: 50px !important;
+}
+
+#step1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.entrep>h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    sans-serif;
+    color: #950b3d;
+    margin-left: 00px;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-left: 500px;
+}
+
+.entrep>p{
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-left: 500px;
+    margin-right: 90px;
+    font-weight: bold;
+}
+
+#colla{
+    margin-right: 400px;
+}
+
+#step2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+#colla1{
+    margin-left: 400px;
+}
+
+.entrep1>h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    sans-serif;
+    color: #950b3d;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-right: 00px;
+}
+
+.entrep1>p{
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-right:400px;
+    margin-left: 100px;
+
+}
+
+
+
+
+
+
+/* security */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div {
+    width: 100%;
+    background-color: #fdf6f2;
+    padding: 10px;
+    word-spacing: 8px;
+    border: solid 1px #950b3d;
+    box-shadow: 1px 1px 2px #950b3d;
+}
+
+.div>h3 {
+    margin-top: 5px;
+    color: red;
+    font-family: sans-serif;
+    margin-left: 500px;
+}
+
+.mind {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.sec {
+    width: 100%;
+    height: 300px;
+    background-image: url(image/personal-e-banking-banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.dive {
+    display: flex;
+    margin-top: 2px;
+    margin-left: 400px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.dive>p>a {
+    text-decoration: none;
+    padding-left: 8px;
+    color: black;
+}
+
+.dive>p>a:hover {
+    color: #950b3d;
+}
+
+.dive>p {
+    padding-left: 10px;
+}
+
+.sec {
+    position: sticky;
+    bottom: 0;
+    top: 0;
+}
+
+.sec>h1 {
+    margin-left: 430px;
+    margin-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+}
+
+.safeguard>h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.safeguard>h2:hover {
+    text-decoration: underline;
+    color: #950b3d;
+}
+
+.safeguard>p {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.tips>h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.tips>h3:hover {
+    text-decoration: underline;
+    color: #950b3d;
+}
+
+.tips>li {
+    margin-left: 400px;
+    margin-right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 30px;
+}
+
+.hr {
+    width: 900px;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+.fraud>h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.fraud>h3:hover {
+    text-decoration: underline;
+    color: #950b3d;
+}
+
+.fraud>p {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    margin-left: 400px;
+}
+
+.email>h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.email>p {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.web>h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.web>p {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.foot {
+    margin-top: 10px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 400px;
+}
+
+.Company {
+    color: white;
+}
+
+.Company>p>a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.Company>p>a:hover {
+    color: #950b3d !important;
+}
+
+.Partner {
+    color: white;
+}
+
+.Partner>p>a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.Partner>p>a:hover {
+    color: #950b3d !important;
+}
+
+.quick {
+    color: white;
+}
+
+.quick>p>a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.quick>p>a:hover {
+    color: #950b3d !important;
+}
+
+.support {
+    color: white;
+}
+
+.support>p>a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.support>p>a:hover {
+    color: #950b3d !important;
+}
+
+.hrr{
+    width: 900px;
+}
+
+.resp>h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.resp>p {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.policy>h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.policy>p {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.policy>li{
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Help Center */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nov{
+    width: 100%;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background-color: #950b3d;
+    box-shadow: 4px 4px 2px rgb(82, 78, 78);
+    display: flex;
+    padding-left: 900px;
+}
+
+#nov1>a {
+    color: white;
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+}
+
+#nov2>button {
+    padding: 2px;
+    width: 150px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: #950b3d;
+    color: white;
+}
+
+#nov2>button:hover {
+    background-color: white;
+    color: #950b3d;
+    border-radius: 100px;
+}
+
+.mean{
+    display: flex;
+}
+
+
+
+
+
+
+
+/* Media Query For different screens */
+@media (min-width:320px) and (max-width:479px) {
+
+    /* smartphones, portrait iPhone, portrait 480x320 phones 
+(Android) */
+    .footer-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1230px;
+        padding: 40px 15px 1050px;
+        position: relative;
+    }
+}
+
+@media (min-width:480px) and (max-width:599px) {
+
+    /* smartphones, Android phones, landscape iPhone */
+    .footer-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1230px;
+        padding: 40px 15px 1050px;
+        position: relative;
+    }
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), 
+landscape 800x480 phones (Android) */
+    .footer-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1230px;
+        padding: 40px 15px 1050px;
+        position: relative;
+    }
+}
+
+@media (min-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+
+}
+
+
+
+@media (min-width: 760px) {
+    .footer-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1230px;
+        padding: 40px 15px 450px;
+        position: relative;
+    }
+
+    .footer-wave-svg {
+        height: 50px;
+    }
+
+    .footer-content-column {
+        width: 24.99%;
+    }
+}
+
+@media (min-width: 568px) {
+    /* .footer-content-column {
+        width: 49.99%;
+    } */
+}
+
+
+@media(max-width:780px) {
+    #main {
+        width: 100%;
+        /* display: none; */
+    }
+
+    #div2>button {
+        background-color: transparent;
+        margin-left: 0px;
+    }
+
+    #div1>a {
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+
+    #div1 {
+        width: 50%;
+        padding-left: 0px;
+    }
+
+    #div2 {
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        font-size: 7px;
+        display: flex;
+    }
+
+    #div {
+        display: none;
+    }
+
+    #oh .new {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
+    #new {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+
+    #new h2 {
+        width: 100%;
+    }
+
+    #new h2 {
+        margin-left: 0px;
+        font-size: 28px;
+        width: 100%;
+    }
+
+    #new p {
+        font-size: 17px;
+        margin-left: 0px;
+    }
+
+    #new button {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    #img img {
+        margin-top: 50px;
+        width: 340px;
+    }
+
+    #imag img {
+        width: 150px;
+    }
+
+    #oh-sec {
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    #sec {
+        margin-left: 100px;
+        width: 550px;
+        height: 200px;
+    }
+
+    #foot {
+        gap: 50px;
+        /* display: none; */
+    }
+
+    main {
+        width: 100%;
+        overflow-x: hidden;
+        height: 800px;
+    }
+}
